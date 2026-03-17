@@ -1,3 +1,54 @@
 <resources>
-    <string name="app_name">laba-4</string>
+    <string name="app_name">Ижевск — Мой Город</string>
+
+    <string name="category_coffee">Кофейни</string>
+    <string name="category_restaurants">Рестораны</string>
+    <string name="category_parks">Парки</string>
+    <string name="category_shopping">Торговые центры</string>
+    <string name="category_kids">Места для детей</string>
+
+    <string name="nav_coffee">Кофейни</string>
+    <string name="nav_restaurants">Рестораны</string>
+    <string name="nav_parks">Парки</string>
+    <string name="nav_shopping">ТЦ</string>
+    <string name="nav_kids">Дети</string>
+
+    <string name="home_welcome">Добро пожаловать в Ижевск!</string>
+    <string name="home_subtitle">Выберите категорию, чтобы найти лучшие места города</string>
+
+    <string name="no_recommendations">Нет рекомендаций</string>
+
+    <string name="place_not_found">Место не найдено</string>
+    <string name="label_address">Адрес</string>
+    <string name="label_description">Описание</string>
+
+    <string name="about_app_title">Ижевск — Мой Город</string>
+    <string name="about_version">Версия 1.0</string>
+    <string name="about_section_app">О приложении</string>
+    <string name="about_section_city">Об Ижевске</string>
+    <string name="about_app_text">Это приложение поможет вам открыть для себя лучшие места Ижевска — от уютных кофеен и ресторанов с удмуртской кухней до живописных парков, торговых центров и мест для семейного отдыха.</string>
+    <string name="about_city_text">Ижевск — столица Удмуртской Республики, крупный промышленный и культурный центр России. Основан в 1760 году как посёлок при железоделательном заводе. Город известен как родина конструктора Михаила Калашникова и знаменитого автомата АК-47. Здесь живёт более 640 000 человек, а сам город богат удмуртскими традициями и культурой.</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="settings_notifications">Уведомления</string>
+    <string name="settings_notifications_subtitle">Получать уведомления о новых местах</string>
+    <string name="settings_dark_mode">Тёмная тема</string>
+    <string name="settings_dark_mode_subtitle">Использовать тёмное оформление</string>
+    <string name="settings_language">Русский язык</string>
+    <string name="settings_language_subtitle">Использовать русскоязычный интерфейс</string>
+    <string name="settings_footer">Приложение «Ижевск — Мой Город» v1.0</string>
+
+    <string name="drawer_city_name">Ижевск</string>
+    <string name="drawer_city_subtitle">Мой Город</string>
+    <string name="drawer_section_categories">КАТЕГОРИИ</string>
+    <string name="drawer_section_other">ДРУГОЕ</string>
+    <string name="drawer_about">О приложении</string>
+    <string name="drawer_settings">Настройки</string>
+
+    <string name="cd_open_menu">Открыть меню</string>
+    <string name="cd_back">Назад</string>
+    <string name="screen_home">Ижевск — Мой Город</string>
+    <string name="screen_detail">Подробнее</string>
+    <string name="screen_about">О приложении</string>
+    <string name="screen_settings">Настройки</string>
 </resources>
