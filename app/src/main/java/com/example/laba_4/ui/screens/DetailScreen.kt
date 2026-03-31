@@ -76,7 +76,7 @@ fun DetailScreen(
                 )
                 Spacer(modifier = Modifier.height(dimensionResource(R.dimen.spacing_md)))
                 Text(
-                    text = recommendation.name,
+                    text = stringResource(recommendation.nameResId),
                     style = MaterialTheme.typography.headlineMedium,
                     color = MaterialTheme.colorScheme.onPrimaryContainer
                 )
@@ -128,7 +128,7 @@ fun DetailScreen(
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                     Text(
-                        text = recommendation.address,
+                        text = stringResource(recommendation.addressResId),
                         style = MaterialTheme.typography.bodyLarge,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
@@ -147,7 +147,7 @@ fun DetailScreen(
         )
         Spacer(modifier = Modifier.height(dimensionResource(R.dimen.spacing_sm)))
         Text(
-            text = recommendation.fullDescription,
+            text = stringResource(recommendation.fullDescriptionResId),
             style = MaterialTheme.typography.bodyLarge,
             color = MaterialTheme.colorScheme.onBackground
         )

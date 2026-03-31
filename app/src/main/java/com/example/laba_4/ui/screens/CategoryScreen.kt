@@ -92,12 +92,12 @@ private fun RecommendationCard(
             Spacer(modifier = Modifier.width(dimensionResource(R.dimen.spacing_lg)))
             Column(modifier = Modifier.weight(1f)) {
                 Text(
-                    text = recommendation.name,
+                    text = stringResource(recommendation.nameResId),
                     style = MaterialTheme.typography.titleMedium,
                     color = MaterialTheme.colorScheme.onSurface
                 )
                 Text(
-                    text = recommendation.shortDescription,
+                    text = stringResource(recommendation.shortDescriptionResId),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.padding(top = dimensionResource(R.dimen.spacing_xs))

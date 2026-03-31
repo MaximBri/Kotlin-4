@@ -1,14 +1,15 @@
 package com.example.laba_4.data.model
 
+import androidx.annotation.StringRes
 import androidx.compose.ui.graphics.vector.ImageVector
 
 data class Recommendation(
     val id: String,
     val categoryId: String,
-    val name: String,
-    val shortDescription: String,
-    val fullDescription: String,
-    val address: String,
+    @StringRes val nameResId: Int,
+    @StringRes val shortDescriptionResId: Int,
+    @StringRes val fullDescriptionResId: Int,
+    @StringRes val addressResId: Int,
     val rating: Float,
     val icon: ImageVector
 )
